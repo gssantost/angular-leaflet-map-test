@@ -49,7 +49,7 @@ export class MapComponent implements OnInit {
 
   ngOnInit() { 
     this.markers = this.route.snapshot.data['markers'].data;
-    console.log(this.markers);
+    // console.log(this.markers);
   }
 
   onMapReady(map: Map): void {
